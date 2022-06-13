@@ -13,13 +13,7 @@
     <!-- Image link template to be reused. -->
     <script id="link" type="text/html">
       <a-entity class="link"
-        geometry="primitive: plane; height: 1; width: 1"
-        material="shader: flat; src: ${thumb}"
-        event-set__mouseenter="scale: 3 3 3"
-        event-set__mouseleave="scale: 2 2 2"
-        event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"
-        proxy-event="event: click; to: #image-360; as: fade"
-        sound="on: click; src: #click-sound"></a-entity>
+       </a-entity>
     </script>
   </head>
   <body>
