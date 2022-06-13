@@ -2,17 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>360&deg; Image</title>
-    <meta name="description" content="360&deg; Image - A-Frame">
-    <script src="../../../dist/aframe-master.js"></script>
+    <title>CHAMBER II</title>
+    <meta name="description" content="360&deg; Image Gallery - A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@5.3.0/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.2.1/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-proxy-event-component@2.1.0/dist/aframe-proxy-event-component.min.js"></script>
+    
   </head>
   <body>
     <a-scene>
-      <a-sky src="177.jpg" rotation="0 -130 0"></a-sky>
+      <!-- 360-degree image. -->
+      <a-sky id="image-360" radius="10" src="177.jpg"
+      </a-sky>
 
-      <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
-              rotation="0 15 0"></a-text>
     </a-scene>
   </body>
 </html>
-© 2022 GitHub, Inc.
